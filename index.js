@@ -10,6 +10,20 @@ const toGrayScale = (r, g, b) => 0.21 * r + 0.72 * g + 0.07 * b;
 var macroFinale ="";
 
 
+const iframeObjet = document.querySelector('iframe');
+iframeObjet.hidden = true ;
+var btn2 = document.getElementById('btnDemo');
+        btn2.addEventListener('click', updateBtn);
+        function updateBtn() {
+            
+            if (iframeObjet.hidden == false){
+                iframeObjet.hidden = true ;
+            }else{
+                iframeObjet.hidden = false ;
+            }
+        }
+
+
 const  macroFooter = "\n  </MacroEvents>\
 \n</Macro>";
 
@@ -284,7 +298,7 @@ const drawAscii = (grayScales, width) => {
       macroFinale = macroFinale + macroFooter;
 
 
-        var btn = document.querySelector('input');
+        var btn = document.getElementById('btnDow');
         btn.addEventListener('click', updateBtn);
         function updateBtn() {
             function download(filename, text) {
