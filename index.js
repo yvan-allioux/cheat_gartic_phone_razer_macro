@@ -27,7 +27,7 @@ var btn2 = document.getElementById('btnDemo');
 const  macroFooter = "\n  </MacroEvents>\
 \n</Macro>";
 
-const macroClic = "\n       <!-- clique -->\
+const macroClic = "\n       <!-- clique made by yvan allioux -->\
 \n    <MacroEvent>\
 \n        <Type>2</Type>\
 \n    <MouseEvent>\
@@ -43,7 +43,7 @@ const macroClic = "\n       <!-- clique -->\
 \n    </MouseEvent>\
 \n    </MacroEvent>\
 \n    <!-- fin clic -->";
-const macroR = "\n    <!-- debut mouvement +x -->\
+const macroR = "\n    <!-- debut mouvement +x made by yvan allioux -->\
 \n    <MacroEvent>\
 \n    <Type>3</Type>\
 \n    <MouseMovement>\
@@ -61,7 +61,7 @@ const macroR = "\n    <!-- debut mouvement +x -->\
 \n    </MouseMovement>\
 \n    </MacroEvent>\
 \n    <!-- fin mouvement -->";
-const macroL = "\n  <!-- debut mouvement -x -->\
+const macroL = "\n  <!-- debut mouvement -x made by yvan allioux-->\
 \n    <MacroEvent>\
 \n    <Type>3</Type>\
 \n    <MouseMovement>\
@@ -80,7 +80,7 @@ const macroL = "\n  <!-- debut mouvement -x -->\
 \n    </MacroEvent>\
 \n    <!-- fin mouvement -->";
 
-const macroS ="\n      <!-- debut mouvement -y -->\
+const macroS ="\n      <!-- debut mouvement -y made by yvan allioux -->\
 \n    <MacroEvent>\
 \n    <Type>3</Type>\
 \n    <MouseMovement>\
@@ -99,7 +99,7 @@ const macroS ="\n      <!-- debut mouvement -y -->\
 \n    </MacroEvent>\
 \n    <!-- fin mouvement -->";
 
-const macroF = "\n      <!-- frape -->\
+const macroF = "\n      <!-- frape made by yvan allioux-->\
 \n    <MacroEvent>\
 \n    <Type>1</Type>\
 \n    <KeyEvent />\
