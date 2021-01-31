@@ -317,6 +317,22 @@ const drawAscii = (grayScales, width) => {
               // Start file download.
               download("z_macroDessin-"+nomFichier+".xml",macroFinale);
         }
+        var btn3 = document.getElementById('btnDowTxt');
+                btn3.addEventListener('click', updateBtn2);
+                function updateBtn2() {
+                    function download2(filename, text) {
+                        var element = document.createElement('a');
+                        element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+                        element.setAttribute('download', filename);
+                        element.style.display = 'none';
+                        document.body.appendChild(element);
+                        element.click();
+                        document.body.removeChild(element);
+                      }
+                      
+                      // Start file download.
+                      download2("image-"+nomFichier+".txt",monImage);
+                }
       
       
 };
