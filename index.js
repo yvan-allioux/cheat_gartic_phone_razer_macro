@@ -202,8 +202,6 @@ function $_GET(param) {
 
 var contrastVar = $_GET('contrast');
 contrastVar=parseInt(contrastVar, 10);
-console.log('contrastVar: ', contrastVar);
-
 
 switch(contrastVar){
     case 0:
@@ -309,4 +307,6 @@ const drawAscii = (grayScales, width) => {
       
 };
 
-
+console.log("made by yvan allioux yvanallioux.fr");
+console.log("https://github.com/jpetitcolas/ascii-art-converter   Documentation used for image to ascii conversion");
+console.log("https://www.razer.com/fr-fr/synapse-3 Razer Synapse 3 software to play the generated macros");

@@ -11,26 +11,33 @@
     <header>
         <h1>Image to a macro razer</h1>
         <p>Create your razer macro from an image, to be able to draw it automatically!</p>
-    </br>
-        <p>Contrast:</p>
-        <a href="./index.html?contrast=0" > 10%</a>
-        <a href="./index.html?contrast=1" > 20%</a>
-        <a href="./index.html?contrast=2" > 30%</a>
-        <a href="./index.html?contrast=3" > 40%</a>
-        <a href="./index.html?contrast=4" > 50%</a>
-        <a href="./index.html?contrast=5" > 60%</a>
-        <a href="./index.html?contrast=6" > 70%</a>
-        <a href="./index.html?contrast=7" > 80%</a>
-        <a href="./index.html?contrast=8" > 90%</a>
-    </br>
         <input class="btnDow" type="button" value="Download">
+    
+        <p>Contrast:</p>
+        <ul>
+            <li><a href="./index.html?contrast=0" > 10%</a></li>
+            <li><a href="./index.html?contrast=1" > 20%</a></li>
+            <li><a href="./index.html?contrast=2" > 30%</a></li>
+            <li><a href="./index.html?contrast=3" > 40%</a></li>
+            <li><a href="./index.html?contrast=4" > 50%</a></li>
+            <li><a href="./index.html?contrast=5" > 60%</a></li>
+            <li><a href="./index.html?contrast=6" > 70%</a></li>
+            <li><a href="./index.html?contrast=7" > 80%</a></li>
+            <li><a href="./index.html?contrast=8" > 90%</a></li>
+        </ul>
+        
     </header>
 
-    <input type="file" name="picture" />
+    <input type="file" name="picture" id="fichier"/>
+</br>
     <canvas id="preview" style="display: none;"></canvas>
     <pre id="ascii"></pre>
 
     <footer>
+        <p>made by yvan allioux</br>
+            <a href="https://github.com/jpetitcolas/ascii-art-converter">Documentation used for image to ascii conversion</a></br>
+            <a href="https://www.razer.com/fr-fr/synapse-3">Razer Synapse 3 software to play the generated macros</a>
+        </p>
     </footer>
     <script src="./index.js"></script>
 </body>
